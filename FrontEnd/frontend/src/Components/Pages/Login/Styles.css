@@ -1,0 +1,70 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #f2f2f2;
+    --error-color: #f44336;
+    --text-color: #333;
+    --input-border-color: #ccc;
+    --input-focus-border-color: #4CAF50;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: auto;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid var(--input-border-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: var(--input-focus-border-color);
+    outline: none;
+  }
+  
+  .errormessage {
+    color: var(--error-color);
+    font-size: 0.875rem;
+    margin-top: -0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #388E3C; 
+  }
+
+  

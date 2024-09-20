@@ -1,0 +1,18 @@
+
+.dash {
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    
+    height: 100vh;
+   
+    background-color: #f0f2f5;
+    
+    color: #333;
+    
+    font-size: 2rem;
+    
+    text-align: center;
+    
+}

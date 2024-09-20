@@ -1,0 +1,63 @@
+/* Navbar container */
+.navbar {
+    background-color: #007bff;
+    color: #333;
+  }
+  
+  /* Navbar styling */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation links container */
+  .list {
+    flex: 1;
+  }
+  
+  /* Navigation list styling */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Navigation list items */
+  li {
+    margin: 0 15px;
+  }
+  
+  /* Navigation links styling */
+  a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  /* Navigation links hover effect */
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* User info span styling */
+  span {
+    margin-right: 10px;
+    font-size: 1rem;
+  }
+  
+  /* Logout link styling */
+  a[href*='Logout'] {
+    color:#333;
+    font-weight: bold;
+  }
+  
